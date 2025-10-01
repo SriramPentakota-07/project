@@ -10,7 +10,7 @@ const products = [
   { id: 5, title: "LED TV", category: "electronics", price: 35999, image: "Images/TV.jpg", description: "Ultra HD 50-inch LED TV with smart features and stunning picture quality." },
   { id: 24, title: "Smartwatch", category: "electronics", price: 1629, image: "Images/smartwatch_1.jpg", description: "stylish and Social Media Integration." },
   { id: 6, title: "Tablet", category: "electronics", price: 18999, image: "Images/tablet.jpg", description: "Portable tablet perfect for entertainment, productivity, and digital art." },
-  { id: 7, title: "Bluetooth Speaker", category: "electronics", price: 1879, image: "Images/Speaker.jpg", description: "Compact wireless speaker with deep bass and crystal-clear sound quality." },
+  { id: 7, title: "Bluetooth Speaker", category: "electronics", price: 1879, image: "Images/speaker.jpg", description: "Compact wireless speaker with deep bass and crystal-clear sound quality." },
   { id: 8, title: "Camera", category: "electronics", price: 54999, image: "Images/camera.jpg", description: "Professional DSLR camera for stunning photography and videography." },
   { id: 9, title: "T-Shirt", category: "clothing", price: 379, image: "Images/shirt.jpg", description: "Comfortable premium cotton T-shirt available in multiple colors and sizes." },
   { id: 10, title: "Jeans", category: "clothing", price: 1299, image: "Images/jeans.jpg", description: "Trendy denim jeans with perfect fit and all-day comfort." },
@@ -402,3 +402,4 @@ displayProducts = function(productsToShow) {
     observeProducts();
   }, 100);
 };
+
