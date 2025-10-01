@@ -43,7 +43,7 @@ header input {
 .cart-icon span {
   background: #e74c3c;
   color: white;
-  border-radius: 50%;
+  border-radius: 0%;
   padding: 0.3rem 0.6rem;
   font-size: 0.8rem;
   position: absolute;
@@ -438,4 +438,5 @@ button:hover {
 @keyframes fadeIn { 
   from { opacity: 0; transform: translateY(20px); } 
   to { opacity: 1; transform: translateY(0); } 
+
 }
