@@ -22,7 +22,7 @@ const products = [
   { id: 16, title: "Mixer Grinder", category: "home", price: 2799, image: "Images/mixer_grinder.jpg", description: "Durable mixer grinder with multiple jars for all your kitchen needs." },
   { id: 17, title: "Coffee Maker", category: "home", price: 3199, image: "Images/coffee_maker.jpg", description: "Automatic coffee maker that brews fresh, delicious coffee instantly at home." },
   { id: 18, title: "Microwave Oven", category: "home", price: 8819, image: "Images/microwave_oven.jpg", description: "Compact microwave oven with auto cook menu and multiple power settings." },
-  { id: 19, title: "washing Machine", category: "home", price: 48999, image: "Images/washing_machine.jpg", description: "Energy-efficient double door refrigerator with large capacity and smart features." },
+  { id: 19, title: "washing Machine", category: "home", price: 48999, image: "Images/washing_machine.jpg", description: "Energy-efficient washing machine with large capacity and smart features." },
   { id: 20, title: "Washing Machine", category: "home", price: 26329, image: "Images/washing_machine_1.jpg", description: "Fully automatic washing machine with multiple wash modes and energy efficiency." },
   { id: 21, title: "Vacuum Cleaner", category: "home", price: 7499, image: "Images/vacuum_cleaner.jpg", description: "High suction vacuum cleaner with HEPA filter for thorough cleaning." },
   { id: 23, title: "Novel Book", category: "books", price: 499, image: "Images/novel.jpg", description: "Bestselling novel with an engaging story that will keep you hooked till the end." },
@@ -402,4 +402,5 @@ displayProducts = function(productsToShow) {
     observeProducts();
   }, 100);
 };
+
 
